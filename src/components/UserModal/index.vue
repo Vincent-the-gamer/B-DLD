@@ -9,6 +9,7 @@
         {{ `${projectName} - v${version}` }} <ReloadOutlined @click="checkUpdate.checkUpdate()" />
       </div>
       <div class="git mt16">用的时候收敛点</div>
+      <div class="git mt16">项目地址：<span class="text-active-3" @click="openBrowser('https://github.com/Vincent-the-gamer/B-DLD')">https://github.com/Vincent-the-gamer/B-DLD</span></div>
     </div>
   </a-modal>
   <CheckUpdate ref="checkUpdate" />

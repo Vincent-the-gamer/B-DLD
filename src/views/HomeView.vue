@@ -13,8 +13,6 @@
     </div>
     <h2 class="info">
       由于某些不可抗力因素，希望大家用的时候收敛点。
-      <br/>
-      不要在意检查更新失败，那是因为没有在GitHub发布版本，还是因为不可抗力。
     </h2>
     <div class="setting">
       <SettingOutlined :style="{fontSize: '18px'}" @click="settingDrawer.open()" />
